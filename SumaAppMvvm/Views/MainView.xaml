@@ -17,8 +17,8 @@
         <Label Text="IResultado: "></Label>
         <Entry Text="{Binding C}" IsReadOnly="True" ></Entry>
         
-        <Button Text="Calcular" Background="Green"></Button>
-        <Button Text="Limpiar" Background="Red"></Button>
+        <Button Text="Calcular" Background="Green" Command="{Binding SumarCommand}"></Button>
+        <Button Text="Limpiar" Background="Red" Command="{Binding LimpiarCommand}"></Button>
         
         
     </VerticalStackLayout>
