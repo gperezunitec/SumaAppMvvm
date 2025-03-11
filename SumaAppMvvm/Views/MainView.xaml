@@ -6,12 +6,12 @@
              x:DataType="viewmodel:MainViewModels"
              x:Class="SumaAppMvvm.Views.MainView">
     
-    <VerticalStackLayout>
-        <Label Text="Ingrese Primer Numero: "></Label>
+    <VerticalStackLayout Margin="10" Spacing="10">
+        <Label Text="Ingrese el Primer Numero: "></Label>
         <Entry Text="{Binding A}" Keyboard="Numeric"></Entry>
         
         
-        <Label Text="Ingrese Primer Numero: "></Label>
+        <Label Text="Ingrese el Segundo Numero: "></Label>
         <Entry Text="{Binding B}" Keyboard="Numeric"></Entry>
         
         <Label Text="IResultado: "></Label>

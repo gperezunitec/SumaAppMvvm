@@ -19,7 +19,17 @@ public partial class MainViewModels: ObservableObject
     [RelayCommand]
     private void Sumar()
     {
-        C = A + B;
+
+        if (A==0 || B==0)
+        {
+            Alerta("Error", "Ingrese al menos uno de los numeros solicitados");
+        }
+        else
+        {
+            C = A + B;
+        }
+        
+        
     }
 
 
