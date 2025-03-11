@@ -18,7 +18,7 @@
         <Entry Text="{Binding C}" IsReadOnly="True" ></Entry>
         
         <Button Text="Calcular" Background="Green"></Button>
-        <Button Text="Limpiar" Background="Reed"></Button>
+        <Button Text="Limpiar" Background="Red"></Button>
         
         
     </VerticalStackLayout>
