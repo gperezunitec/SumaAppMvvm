@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewmodel="clr-namespace:SumaAppMvvm.ViewModels"
+             x:DataType="viewmodel:MainViewModels"
+             x:Class="SumaAppMvvm.Views.MainView">
+    
+    <VerticalStackLayout>
+        <Label Text="Ingrese Primer Numero: "></Label>
+        <Entry Text="{Binding A}" Keyboard="Numeric"></Entry>
+        
+        
+        <Label Text="Ingrese Primer Numero: "></Label>
+        <Entry Text="{Binding B}" Keyboard="Numeric"></Entry>
+        
+        <Label Text="IResultado: "></Label>
+        <Entry Text="{Binding C}" IsReadOnly="True" ></Entry>
+        
+        <Button Text="Calcular" Background="Green"></Button>
+        <Button Text="Limpiar" Background="Reed"></Button>
+        
+        
+    </VerticalStackLayout>
+</ContentPage>
